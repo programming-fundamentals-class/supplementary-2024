@@ -40,6 +40,11 @@ In the first session, you need to set up your environment and learn to use basic
 ```
 	$ssh -p PORT -i /path/to/your/private/key username@server_name
 ```
+Instead of copying the key to the server and adding it to the authorized_keys manually , you can use ssh-copy-id(install it with `sudo apt-get install ssh-copy-id` or other way) command to automatically copy your public key to the server. It will copy your public key to the server and add it to the authorized_keys file. 
+```
+	$ssh-copy-id -p PORT username@server_name
+```
+For more information use `man ssh-copy-id` and `ssh-copy-id --help`
 - For the convenience, you can also describe a connection in your ~/.ssh/config file. It allows you only to specify myserver as only argument for 'ssh' This is an example:
 ```
 	Host          myserver
