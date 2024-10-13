@@ -67,3 +67,13 @@ For more information use `man ssh-copy-id` and `ssh-copy-id --help`
 #### Want to contribute of found a bug?
 - Feel free to clone [the repo](https://github.com/programming-fundamentals-class/supplementary-2024), send a pull request
 
+
+## Pre-reading for the next week
+
+#### Mandatory
+- Brian W. Kernighan and Dennis M. Ritchie, The C programming Language Prentice-Hall in 1988
+	- Chapter 1 - A Tutorial Introduction
+
+#### Optional
+- [https://www.youtube.com/watch?v=g3jOJfrOknA](https://www.youtube.com/watch?v=g3jOJfrOknA)
+ 
