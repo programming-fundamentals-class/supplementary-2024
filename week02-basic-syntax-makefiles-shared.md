@@ -9,24 +9,47 @@ Usually the first step, initiating working with AI assistant is the proper conte
 I am the first semester university student who need to study C programming language in Linux environment (using only terminal-based tools). Currently I am focusing on the following concepts: Basic C syntax, Makefiles, shared objects. I will ask questions one by one about those concepts. You need to provide me very precise information with corresponding references to linux man pages. 
 ```
 
-LLM-based assistants usually have limited context window -- it is a memory where the current dialog and corresponding files are stored. It means, that it is better to have separate conversation for different topics (we have 5 topics for the class )
+LLM-based assistants usually have limited context window -- it is a memory where the current dialog and corresponding files are stored. It means, that it is better to have separate conversation at least for different topics (we have 2 topics for the class). Also it is useful to restart chat if you want to study another aspect of the same concept.
 
-Explorations Task: Using an AI assistant (such as ChatGPT or Claude), explore the concepts of makefiles and dynamic libraries in Linux. Follow these steps to guide your learning:
+#### Explorations Task
+ Using an AI assistant (such as ChatGPT or Claude), explore the concepts of **makefiles** and **shared objects (dynamic libraries)** in Linux. 
+ 
+ Follow these steps to guide your learning:
 
 1. Makefiles: a) Ask the AI to explain what a makefile is and its purpose in software development. b) Request an example of a simple makefile for a C project with multiple source files. c) Ask the AI to explain each line of the example makefile. d) Inquire about common makefile rules like 'all', 'clean', and how to use variables in makefiles. e) Ask LLM how to find corresponding information in Linux man pages system.
+
 2. Dynamic Libraries: a) Ask the AI to explain what dynamic libraries are and their advantages in Linux. b) Request step-by-step instructions on how to create a simple dynamic library in C. c) Ask for an example of how to link and use a dynamic library in a C program. d) Inquire about the difference between static and dynamic libraries.
+  
 3. Integration: a) Ask the AI how to modify a makefile to compile and link a program with a dynamic library. b) Request an explanation of the LD_LIBRARY_PATH environment variable and its role in using dynamic libraries.
+   
 4. Practice: a) Based on the information provided by the AI, try to write your own makefile for a simple C project. b) Attempt to create a basic dynamic library and use it in a C program. c) If you encounter any issues, ask the AI for help in debugging or clarifying concepts.
+   
 5. Reflection: a) Summarize what you've learned about makefiles and dynamic libraries. b) Identify any areas where you need further clarification or practice.
 
-Remember to critically evaluate the AI's responses and cross-reference with man pages or other reliable sources. If you're unsure about any information provided, feel free to ask for clarification or additional examples.
+Remember to critically evaluate the AI's responses and cross-reference with man pages or other reliable sources. If you're unsure about any information provided, feel free to ask for clarification or additional examples. If you stuck with understanding or feel lost, ask your human instructor for help.
 
 ---
 #### Practice C syntax
+
 Depending on your basic experience and previous reading you need to solve at least 10 tasks provided below. 
 
 All solutions should be send via github according the github-classroom link provided by teacher. (If you are not familiar with github yet, please keep all files. You will be able to submit them after lecture on git)
 
+Whole assignment solution should have the following file structure
+```
+├── concepts                 -- folder where you put chats with llm
+│   ├── makefiles              -- particular dialogs, you can have many
+│   └── shared-oblects           | files here 
+├── task01                   -- folder with solution of the first task
+│   ├── Makefile               -- makefile
+│   └── solution.c             -- source code 
+├── task010
+│   ├── Makefile             | you can have more source files
+│   └── solution.c
+
+```
+
+Note: one of the task should mandatory built as a two separated binaries -- executable and library
 ##### Simple Tasks
 
 1. Write a program that outputs the string "HELLO WORLD!" to the console.
@@ -67,7 +90,7 @@ All solutions should be send via github according the github-classroom link prov
 
 #### Stuck with something?
 - Ask a question in the class chat, everybody welcome to answer and help
-- Tag @krinkin if the problem too unclear how to approach
+- Tag @krinkin in course chat if the problem too unclear how to approach
 
 #### Want to contribute of found a bug?
 - Feel free to clone [the repo](https://github.com/programming-fundamentals-class/supplementary-2024), send a pull request
