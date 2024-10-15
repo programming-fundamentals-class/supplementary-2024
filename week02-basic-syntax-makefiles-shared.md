@@ -109,5 +109,5 @@ Note: one of the task should mandatory built as a two separated binaries -- exec
 
 #### Optional
 - [Understanding the Origins and the Evolution of Vi & Vim](https://pikuma.com/blog/origins-of-vim-text-editor)
-- [The TTY demystified](# The TTY demystified)
+- [The TTY demystified](https://www.linusakesson.net/programming/tty/)
  
