@@ -86,7 +86,11 @@ Note: one of the task should mandatory built as a two separated binaries -- exec
 24. Find the product of the list elements located between the maximum absolute value and minimum absolute value elements. 
 
 #### What would help
-- TDB
+- ChatGPT, search engines like google, bing, etc
+- People in Discord channel #pr2024
+- [Linux Bash Shell Cheat Sheet](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
+- [Vim cheat sheet](https://web.stanford.edu/class/cs110/summer-2021/handouts/vim-cheat-sheet/)
+- [Tmux Cheat Sheet & Quick Reference](https://tmuxcheatsheet.com/)
 
 #### Stuck with something?
 - Ask a question in the class chat, everybody welcome to answer and help
