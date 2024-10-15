@@ -103,7 +103,7 @@ Note: one of the task should mandatory built as a two separated binaries -- exec
 	- Chapter 3: Control Flow
 - Explore the following concepts with 'man' and ChatGPT
 	- 'make' (command line utility to build programms)
-	- 'biutils'
+	- 'binutils'
 	  
 	*!! Keep chats with AI-assistant, they should be pushed to git later*
 
