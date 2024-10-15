@@ -98,8 +98,16 @@ Note: one of the task should mandatory built as a two separated binaries -- exec
 ## Pre-reading for the next week
 
 #### Mandatory
-- TBD
+- Brian W. Kernighan and Dennis M. Ritchie, The C programming Language Prentice-Hall in 1988
+	- Chapter 2: Types, Operators and Expressions
+	- Chapter 3: Control Flow
+- Explore the following concepts with 'man' and ChatGPT
+	- 'make' (command line utility to build programms)
+	- 'biutils'
+	  
+	*!! Keep chats with AI-assistant, they should be pushed to git later*
 
 #### Optional
-- TBD
+- [Understanding the Origins and the Evolution of Vi & Vim](https://pikuma.com/blog/origins-of-vim-text-editor)
+- [The TTY demystified](# The TTY demystified)
  
