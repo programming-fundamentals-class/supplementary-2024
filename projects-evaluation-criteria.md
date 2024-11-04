@@ -48,6 +48,8 @@
   - [ ] Permission issues
   - [ ] Memory allocation failures
   - [ ] Signal interrupts (Ctrl+C)
+- [ ] Using curvy brackets in for, while, if, etc
+- [ ] Using tabs or spaces in code blocks
 - [ ] All allocated memory is properly freed
 - [ ] File descriptors are properly closed
 - [ ] System resources are properly released
