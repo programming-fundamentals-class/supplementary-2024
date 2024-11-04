@@ -67,7 +67,9 @@ All solutions should be send via github according the github-classroom link prov
 ## Pre-reading for the next week
 
 #### Mandatory
-- TBD
+- Brian W. Kernighan and Dennis M. Ritchie, The C programming Language Prentice-Hall in 1988
+	- Chapter 4: Functions and Program Structure
+- 
 #### Optional
 - TBD
  
