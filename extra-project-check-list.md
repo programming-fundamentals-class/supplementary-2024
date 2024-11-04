@@ -13,22 +13,19 @@ Students can suggest extra projects to implement. But each project has to fit th
 - [ ] Project involves system resource handling (files, processes, memory, or network)
 
 ### Example Project Areas
-1. File System Operations
-   [ ] File managers
-   [ ] Archivers/Compression tools
-   [ ] File format analyzers
-
-2. System Utilities
-   [ ] Process monitors
-   [ ] Memory inspection tools
-   [ ] System resource analyzers
-
-3. Network Programming
-   [ ] Chat applications
-   [ ] File transfer utilities
-   [ ] Network monitoring tools
-
-4. Text Processing
-   [ ] Text editors
-   [ ] File comparison tools
-   [ ] Log analyzers
+- File System Operations
+	- [ ] File managers
+	- [ ] Archivers/Compression tools
+	- [ ] File format analyzers
+- System Utilities
+	- [ ] Process monitors
+	- [ ] Memory inspection tools
+	- [ ] System resource analyzers
+- Network Programming
+	- [ ] Chat applications
+	- [ ] File transfer utilities
+	- [ ] Network monitoring tools
+- Text Processing
+	- [ ] Text editors
+	- [ ] File comparison tools
+	- [ ] Log analyzers
